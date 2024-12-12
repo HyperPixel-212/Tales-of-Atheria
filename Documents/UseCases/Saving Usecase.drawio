@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.3">
+  <diagram name="Page-1" id="G6W4Shuja6il5FKFYwsE">
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="470" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-3" value="Player Navigates to the save option in the inventory" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-4" value="Player chooses a save slot to save in" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-5" value="The game writes that save data to the &quot;save&quot; folder found in the files" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-6" value="The player can close the game and their progress will be saved and loaded at any time" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HyorO2lDcDcDfFX4XQPU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="320" as="sourcePoint" />
+            <mxPoint x="130" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HyorO2lDcDcDfFX4XQPU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="170" as="sourcePoint" />
+            <mxPoint x="480" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HyorO2lDcDcDfFX4XQPU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="290" as="sourcePoint" />
+            <mxPoint x="659.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HyorO2lDcDcDfFX4XQPU-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HyorO2lDcDcDfFX4XQPU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="180" as="sourcePoint" />
+            <mxPoint x="640" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

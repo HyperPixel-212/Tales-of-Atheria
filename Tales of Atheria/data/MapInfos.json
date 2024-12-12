@@ -1,4 +1,8 @@
 [
 null,
-{"id":1,"expanded":false,"name":"Test dungeon","order":1,"parentId":0,"scrollX":1622,"scrollY":1014}
+{"id":1,"expanded":true,"name":"Floor1A","order":3,"parentId":0,"scrollX":1779,"scrollY":985.5},
+{"id":2,"expanded":true,"name":"Floor1B","order":4,"parentId":1,"scrollX":1416.8,"scrollY":919.6},
+{"id":3,"expanded":true,"name":"Town","order":1,"parentId":0,"scrollX":1779,"scrollY":985.5},
+{"id":4,"expanded":false,"name":"Floor1C","order":5,"parentId":1,"scrollX":1779,"scrollY":985.5},
+{"id":5,"expanded":false,"name":"Tutorial Cave","order":2,"parentId":3,"scrollX":1779,"scrollY":985.5}
 ]

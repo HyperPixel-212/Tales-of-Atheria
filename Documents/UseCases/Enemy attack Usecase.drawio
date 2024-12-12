@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
+  <diagram name="Page-1" id="4ahvpelCilwKbXSP_rQ5">
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tAkzD75B_zDekG6yvt60-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="150" width="520" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-32" value="The enemies turn begins" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-33" value="The enemy attacks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="475" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-34" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="554" y="240" as="sourcePoint" />
+            <mxPoint x="554" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="555" y="360" as="sourcePoint" />
+            <mxPoint x="555" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-37" value="The attack will take into account the enemy&#39;s evasion and calculate whether it will hit or miss" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="477" y="410" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-38" value="If the attack was sucessful then it will do damage by calculating the user&#39;s attack and the recipient&#39;s defense" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="317" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-39" value="If the attack misses then no damage is done to the recipient" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PQO7M3FsyzpqnbT5gVS9-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="632" y="490" as="sourcePoint" />
+            <mxPoint x="682" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PQO7M3FsyzpqnbT5gVS9-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" target="PQO7M3FsyzpqnbT5gVS9-38" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="476" y="490" as="sourcePoint" />
+            <mxPoint x="526" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4e4_c_tYgafmdLTxtui_-1" value="The enemy&#39;s turn ends and goes back to the Player&#39;s turn" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="482.5" y="650" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4e4_c_tYgafmdLTxtui_-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="4e4_c_tYgafmdLTxtui_-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="421" y="600" as="sourcePoint" />
+            <mxPoint x="421" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4e4_c_tYgafmdLTxtui_-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.71;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="4e4_c_tYgafmdLTxtui_-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="685" y="600" as="sourcePoint" />
+            <mxPoint x="631" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tAkzD75B_zDekG6yvt60-2" value="Enemy" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tAkzD75B_zDekG6yvt60-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="PQO7M3FsyzpqnbT5gVS9-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="170" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

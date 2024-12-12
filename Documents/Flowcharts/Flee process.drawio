@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0" version="25.0.1">
+  <diagram name="Page-1" id="FDy-CoA_kGg1gj3GW_Qd">
+    <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-1" value="Player enters a fight" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-3" value="The fight menu pops up" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="120" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-39" value="The Player chooses to flee" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="345" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-44" value="The system calculates the speed of the player and the enemy and determines the flee chance based off that" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-50" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1" target="9wRAZa3eu1D-8AbTDfj7-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="320" as="sourcePoint" />
+            <mxPoint x="465" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-59" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="80" as="sourcePoint" />
+            <mxPoint x="424" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9wRAZa3eu1D-8AbTDfj7-60" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424" y="200" as="sourcePoint" />
+            <mxPoint x="424" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-1" value="Flee attempt is sucessful and battle ends" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="A6666ByzrUiH9HA8-HnX-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-3" value="Flee attempt failed " style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="9wRAZa3eu1D-8AbTDfj7-44" target="A6666ByzrUiH9HA8-HnX-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="440" as="sourcePoint" />
+            <mxPoint x="505" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-5" value="Upon the next flee attempt the chance is increased by 10% until sucess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="600" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A6666ByzrUiH9HA8-HnX-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="A6666ByzrUiH9HA8-HnX-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="560" as="sourcePoint" />
+            <mxPoint x="620" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
