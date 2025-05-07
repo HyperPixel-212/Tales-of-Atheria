@@ -1,11 +1,11 @@
 [
 null,
 {"id":1,"expanded":true,"name":"Floor1A","order":4,"parentId":0,"scrollX":1779,"scrollY":985.5},
-{"id":2,"expanded":true,"name":"Floor1B","order":5,"parentId":1,"scrollX":1584,"scrollY":960},
+{"id":2,"expanded":true,"name":"Floor1B","order":5,"parentId":1,"scrollX":1779,"scrollY":985.5},
 {"id":3,"expanded":true,"name":"Town","order":1,"parentId":0,"scrollX":1779,"scrollY":985.5},
 {"id":4,"expanded":false,"name":"Floor1C","order":6,"parentId":1,"scrollX":1779,"scrollY":985.5},
 {"id":5,"expanded":false,"name":"Tutorial Cave","order":2,"parentId":3,"scrollX":1779,"scrollY":985.5},
-{"id":6,"expanded":false,"name":"Floor1D","order":7,"parentId":1,"scrollX":1568,"scrollY":640},
+{"id":6,"expanded":false,"name":"Floor1D","order":7,"parentId":1,"scrollX":1779,"scrollY":985.5},
 {"id":7,"expanded":false,"name":"Floor1E","order":8,"parentId":1,"scrollX":0,"scrollY":0},
 {"id":8,"expanded":false,"name":"Floor1F","order":9,"parentId":1,"scrollX":1779,"scrollY":985.5},
 {"id":9,"expanded":false,"name":"Floor1G","order":10,"parentId":1,"scrollX":1779,"scrollY":985.5},
