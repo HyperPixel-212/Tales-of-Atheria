@@ -1,3 +1,3 @@
 # Tales-of-Atheria
 
-If you wish to find the game application go into the "MidPoint" folder, then into the "Tales of Atheria" and there is a demo of the game in there called "Game" 
+If you wish to find the game application go into "Documents" folder then into "Final project" then into "Tales of Atheria" and there will be a file called "Game.exe" which is the game.
